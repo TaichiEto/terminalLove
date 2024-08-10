@@ -118,8 +118,19 @@ while True:
             level_file_2.close()
             time.sleep(5)
             break
-        elif your_level <= 100:
-            print ("はい！喜んで！")
+        elif your_level <= 59:
+            print ("Misaki > ありがとう。")
+            time.sleep(1)
+            print ("でも･･･")
+            time.sleep(1)
+            print ("私、実は男なの。")
+            time.sleep(1)
+            print ("あれ、知ってたかな？とにかく、そういうことだから。よく考え直して、それでもよかったら、そのときは･･･。")
+            your_level = 60
+        elif your_level <= 120:
+            print ("Misaki > はい！喜んで！")
+            time.sleep(1)
+            print ("あとから取り消そうったってナシだからね！")
         else:
             print ("Misaki > ごめんなさい、友達としてか見れない...")
             print ("嫌われてしまったので初期化されます。")
